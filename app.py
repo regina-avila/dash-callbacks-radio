@@ -9,7 +9,7 @@ from dash.dependencies import Input, Output, State
 myheading1='Pick a color'
 tabtitle = 'colors'
 list_of_options=['red', 'blue', 'yellow', 'green']
-list_of_images=['redflower.jpeg','blueflower.jpeg','yellowflower.jpeg','greenlights.jpeg]
+list_of_images=['redflower.jpeg','blueflower.jpeg','yellowflower.jpeg','greenlights.jpeg' ]
 sourceurl = 'https://google.com/'
 githublink = 'https://github.com/regina-avila/dash-callbacks-radio'
 
@@ -34,7 +34,7 @@ app.layout = html.Div(children=[
                 {'label':list_of_options[2], 'value':list_of_images[2]},
                 {'label':list_of_options[3], 'value':list_of_images[3]},
                 ],
-        value=list_of_images[4],
+        value=list_of_images[3],
         ),
     html.Div(id='your_output_here', children=''),
     html.Br(),
