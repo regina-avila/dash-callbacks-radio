@@ -9,7 +9,7 @@ from dash.dependencies import Input, Output, State
 myheading1='PICK A COLOR'
 tabtitle = 'COLORS'
 list_of_options=['blue', 'green', 'red', 'yellow']
-list_of_images=['blueflower.jpeg', 'greenlights.jpeg', 'redflower.jpeg', 'yellowflower.jpeg']
+list_of_images=['blueflower.jpeg', 'greenlights.jpeg', 'redflower.jpeg', 'yellowflower.jpeg','redhoodie.jpeg]
 sourceurl = 'https://google.com'
 githublink = 'https://github.com/regina-avila/dash-callbacks-radio'
 
