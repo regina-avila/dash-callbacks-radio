@@ -6,11 +6,11 @@ from dash.dependencies import Input, Output, State
 
 ########### Define your variables ######
 
-myheading1='PICK A COLOR'
-tabtitle = 'COLORS'
-list_of_options=['blue', 'green', 'red', 'yellow']
-list_of_images=['blueflower.jpeg', 'greenlights.jpeg', 'redflower.jpeg', 'yellowflower.jpeg','redhoodie.jpeg]
-sourceurl = 'https://google.com'
+myheading1='Pick a color'
+tabtitle = 'colors'
+list_of_options=['red', 'blue', 'yellow', 'green']
+list_of_images=['redflower.jpeg','blueflower.jpeg','yellowflower.jpeg','greenlights.jpeg]
+sourceurl = 'https://google.com/'
 githublink = 'https://github.com/regina-avila/dash-callbacks-radio'
 
 
